@@ -1,4 +1,4 @@
-# Final-Project
+# 25-2-R-13 - Literature sources analysis using deep impostor approach
 Our project describes an unsupervised process for finding stylistic boundaries in long or
 composite texts. A challenge that has become increasingly important as texts are 
 written, modified, or assembled from multiple sources. Building on the Deep Impostors
