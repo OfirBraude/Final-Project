@@ -1,4 +1,4 @@
-# 25-2-R-13 — Literature Sources Analysis Using Deep Impostor Approach
+# 25-2-R-13 - Literature Sources Analysis Using Deep Impostor Approach
 This project presents a fully unsupervised pipeline for detecting stylistic boundaries 
 within long or composite texts, a growing challenge in the age of multi-authored, edited,
 or compiled documents.
@@ -15,8 +15,8 @@ Methodology Summary
 
 2. Word Embedding:  
    Batches are embedded using either:  
-   a. Word2Vec (Skip-Gram) — efficient, static lexical vectors  
-   b. BERT — contextualized, deep transformer-based embeddings
+   a. Word2Vec (Skip-Gram) - efficient, static lexical vectors  
+   b. BERT - contextualized, deep transformer-based embeddings
 
 3. Classifier Training (Deep Impostors):  
    For each unrelated impostor pair, a binary classifier is trained to capture their stylistic  
@@ -28,7 +28,7 @@ Methodology Summary
 
 5. Rolling Distance Analysis:  
    A squared difference function is used to detect abrupt local deviations in the stylistic  
-   signal — candidate changepoints.
+   signal - candidate changepoints.
 
 6. Wavelet-Based Refinement:  
    Discrete Wavelet Transform enhances changepoint sensitivity and robustness across scales.
